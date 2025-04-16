@@ -1,0 +1,17 @@
+# i3blocks config - modern minimal + nerd fonts
+
+[battery]
+command=~/scripts/battery.sh
+interval=30
+markup=pango
+
+[player]
+command=~/scripts/player.sh
+interval=3
+signal=10
+markup=pango
+
+[time]
+command=date '+%a %d %b %H:%M'
+interval=60
+
