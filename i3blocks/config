@@ -1,14 +1,18 @@
 # i3blocks config - modern minimal + nerd fonts
 
-[battery]
-command=~/scripts/battery.sh
-interval=30
-markup=pango
+separator=test
+separator_block_width=9
+
 
 [player]
 command=~/scripts/player.sh
 interval=3
 signal=10
+markup=pango
+
+[battery]
+command=~/scripts/battery.sh
+interval=30
 markup=pango
 
 [time]
