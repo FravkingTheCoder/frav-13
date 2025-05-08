@@ -1,0 +1,141 @@
+/* Use JetBrains Mono Nerd Font */
+* {
+  font-family: 'Symbols Nerd Font',"Iosevka Nerd Font", 'FontAwesome';
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Dracula Color Palette */
+@define-color background #282a36;
+@define-color current-line #44475a;
+@define-color foreground #f8f8f2;
+@define-color comment #6272a4;
+@define-color middle #a4befb;
+@define-color cyan #8be9fd;
+@define-color green #50fa7b;
+@define-color orange #ffb86c;
+@define-color pink #ff79c6;
+@define-color purple #bd93f9;
+@define-color red #ff5555;
+@define-color yellow #f1fa8c;
+
+/* Main Waybar style */
+#waybar {
+  background-color: transparent;
+  color: @foreground;
+  border-radius: 5px;
+  min-height: 32px; /* Match bar height */
+  /*border: 2px solid @current-line;*/
+}
+
+/* Style for all modules */
+#workspaces,
+#clock,
+#pulseaudio,
+#custom-mic,
+#tray,
+#custom-update,
+#custom-wl-gammatemp{
+  padding: 0 8px;
+  margin: 2px 4px;
+  border-radius: 5px;
+  background-color: @current-line;
+  color: @cyan;
+}
+#custom-power {
+  padding: 0 8px;
+  margin: 2px 4px;
+  border-radius: 5px;
+  background-color: @current-line;
+  color: @foreground;
+}
+
+/* Style for Hyprland Workspaces */
+#workspaces button {
+  padding: 0 8px;
+  color: @comment;
+  background-color: transparent;
+  border: none;
+  border-radius: 1px;
+  font-weight: normal;
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+
+/* Remove color box on hover */
+#workspaces button:hover {
+  color: @middle;
+  background-color: transparent ;
+  box-shadow: none ;
+}
+
+/* Bold active workspace number, no background */
+#workspaces button.active {
+  color: @cyan;
+  background-color: transparent;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+  color: @foreground;
+  background-color: @red;
+}
+
+/* Center icons in all modules */
+#workspaces,
+#clock,
+#pulseaudio,
+#custom-mic,
+#tray,
+#custom-update,
+#custom-power {
+}
+
+/* Style for PulseAudio (Volume) */
+#pulseaudio {
+  color: @cyan;
+}
+#pulseaudio.muted {
+  color: @comment;
+}
+
+
+/* Style for Clock */
+#clock {
+  color: @orange;
+}
+
+/* Style for System Tray */
+#tray {
+  background-color: @current-line;
+}
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: @red;
+}
+
+/* Style for Custom Power Menu */
+#custom-power {
+  color: @red;
+}
+
+/* Style for Custom Update Module */
+#custom-update {
+  color: @cyan;
+}
+
+/* Tooltip Style */
+tooltip {
+  background-color: @current-line;
+  border: 1px solid @purple;
+  border-radius: 2px;
+}
+tooltip label {
+  color: @foreground;
+}
+

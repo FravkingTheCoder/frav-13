@@ -1,0 +1,69 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 32,
+  "spacing": 1,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "pulseaudio",
+    "tray",
+    "custom/update",
+    "custom/power"
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "format-icons": null,
+    "persistent-workspaces": {
+      "*": 5
+    }
+  },
+
+"pulseaudio": {
+    "format": "{volume}% {icon} ", // Format: Volume percentage and icon
+    "format-muted": "󰖁 Muted ", // Format when muted
+    "on-click": "pavucontrol", // Open volume control on click
+    "format-icons": {
+      "headphone": "󰋋",
+      "hands-free": "󰋎",
+      "headset": "󰋎",
+      "phone": "󰏲",
+      "portable": "󰏲",
+      "car": "󰄋",
+      "default": ["", "", ""] // Icons for different volume levels
+    }
+  },
+
+    
+  
+
+  "clock": {
+    "format": " {:%H:%M %a %d}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": " {:%Y-%m-%d}"
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+
+
+  "custom/update": {
+    "format": "Update ",
+    "tooltip": "Run system update",
+    "on-click": "kitty -e /home/frav/scripts/update.sh",
+    "interval": 3600
+  },
+
+  "custom/power": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "rofi -show power-menu -modi power-menu:/home/frav/scripts/rofi-power-menu",
+    "signal": 8
+  }
+}
+

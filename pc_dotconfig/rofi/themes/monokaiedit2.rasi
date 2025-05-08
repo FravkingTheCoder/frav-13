@@ -1,0 +1,177 @@
+configuration {
+    font:               "JetBrainsMono Nerd Font 11";
+    icon-theme:         "Papirus-Dark";
+    show-icons:         true;
+    modi:               "drun,run,filebrowser,window";
+    drun-display-format: "{icon} {name}";
+    location:           0;
+    anchor:             center;
+}
+
+* {
+    dracula-background:   #282a36;
+    dracula-current-line: #44475a;
+    dracula-foreground:   #f8f8f2;
+    dracula-comment:      #6272a4;
+    dracula-cyan:         #8be9fd;
+    dracula-green:        #50fa7b;
+    dracula-orange:       #ffb86c;
+    dracula-pink:         #ff79c6;
+    dracula-purple:       #bd93f9;
+    dracula-red:          #ff5555;
+    dracula-yellow:       #f1fa8c;
+
+    background-color:   transparent;
+    text-color:         @dracula-foreground;
+    border:             @dracula-cyan;
+    border-width:	1;
+    padding:            0;
+}
+
+window {
+    background-color:   @dracula-background;
+    border:             1px solid;
+    border-color:	@dracula-cyan;
+    border-radius:      12px;
+    padding:            20px;
+    width:              750px;
+    height:             60%;
+    location:           center;
+    anchor:             center;
+}
+
+mainbox {
+    orientation:        horizontal;
+    spacing:            20px;
+    children:           [ "leftcolumn", "rightcolumn" ];
+}
+
+leftcolumn {
+    orientation:        vertical;
+    expand:             false;
+    width:              300px;
+    children:           [ "inputbar", "imagebox", "mode-switcher" ];
+}
+
+rightcolumn {
+    orientation:        vertical;
+    expand:             true;
+    children:           [ "listview" ];
+}
+
+inputbar {
+    background-color:   @dracula-current-line;
+    text-color:         @dracula-foreground;
+    padding:            10px 15px;
+    margin:             0px 0px 15px 0px;
+    border-radius:      8px;
+    children:           [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:            true;
+    background-color:   inherit;
+    text-color:         inherit;
+    padding:            0px 8px 0px 0px;
+    content:            " ";
+}
+
+entry {
+    background-color:   inherit;
+    text-color:         inherit;
+    placeholder:        "Search";
+    placeholder-color:  @dracula-comment;
+    vertical-align:     0.5;
+    horizontal-align:   0.0;
+    blink:              true;
+    cursor-color:       @dracula-pink;
+}
+
+imagebox {
+    background-color:   transparent;
+    background-image:   url("/home/frav/Pictures/goat.jpg", height); 
+    expand:             true;
+    margin:             0px 0px 15px 0px;
+}
+
+mode-switcher {
+    orientation:        horizontal;
+    spacing:            10px;
+    expand:             false;
+    horizontal-align:   0.5;
+    children:           [ "button" ];
+    padding:            5px 0px 0px 0px;
+}
+
+button {
+    background-color:   @dracula-current-line;
+    text-color:         @dracula-foreground;
+    padding:            8px 15px;
+    border-radius:      8px;
+    cursor:             pointer;
+    horizontal-align:   0.5;
+}
+
+button selected {
+    background-color:   @dracula-purple;
+    text-color:         @dracula-background;
+}
+
+listview {
+    background-color:   transparent;
+    columns:            1;
+    lines:              10;
+    spacing:            8px;
+    cycle:              true;
+    dynamic:            true;
+    layout:             vertical;
+    padding:            0px;
+    margin:             0px;
+    scrollbar:          false;
+}
+
+element {
+    background-color:   transparent;
+    text-color:         @dracula-foreground;
+    orientation:        horizontal;
+    border-radius:      8px;
+    padding:            8px 12px;
+}
+
+element-icon {
+    background-color:   inherit;
+    size:               1.5em;
+    cursor:             inherit;
+    vertical-align:     0.5;
+    horizontal-align:   0.0;
+    margin:             0px 12px 0px 0px;
+}
+
+element-text {
+    background-color:   inherit;
+    text-color:         inherit;
+    highlight:          inherit;
+    cursor:             inherit;
+    vertical-align:     0.5;
+    horizontal-align:   0.0;
+}
+
+element selected {
+    background-color:   @dracula-current-line;
+    text-color:         @dracula-purple;
+    border-radius:      8px;
+}
+
+element urgent, element selected urgent {
+    background-color:   @dracula-red;
+    text-color:         @dracula-foreground;
+}
+
+scrollbar {
+    handle-color:       @dracula-pink;
+    handle-width:       5px;
+    border:             0px;
+    background-color:   @dracula-current-line;
+}
+
+
