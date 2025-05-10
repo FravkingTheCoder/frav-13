@@ -1,0 +1,75 @@
+configuration {
+    font: "GohuFont14 Nerd Font 13";
+    icon-theme: "Papirus-Dark";
+    show-icons: true;
+    display-drun: "  Apps";
+    display-filebrowser: " Files";
+    display-window: " Windows";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    anchor: center;
+}
+
+* {
+    background:         #1b1d1e;
+    foreground:         #d4cac9;
+    border:             0;
+    padding:            10px;
+    text-color:         #d4cac9;
+    background-color:   #1b1d1e;
+}
+
+window {
+    background-color:   #1b1d1e;
+    border:             0;
+    padding:            5px;
+    width:              700px;
+    height:             500px;
+    location:           center;
+}
+
+mainbox {
+    background-color:   #1b1d1e;
+    border:             0;
+    children:           [inputbar, listview];
+}
+
+inputbar {
+    background-color:   #1b1d1e;
+    text-color:         #d4cac9;
+    cursor-color:       #fcee0b;
+    border:             0;
+}
+
+listview {
+    background-color:   #1b1d1e;
+    scrollbar:          false;
+    fixed-height:       0;
+    lines:              8;
+    spacing:            5px;
+}
+
+element {
+    border:             0;
+    padding:            4px;
+    background-color:   #1b1d1e;
+    text-color:         #d4cac9;
+}
+
+element selected {
+    background-color:   #4d4f4c;
+    text-color:         #1b1d1e;
+}
+
+element-icon, entry, prompt {
+    background-color:   inherit;
+    text-color:         inherit;
+    size:               1.2em;
+    margin:             0px 8px 0px 0px;
+}
+
+scrollbar {
+    handle-color:       #fcee0b;
+    handle-width:       5px;
+}
+

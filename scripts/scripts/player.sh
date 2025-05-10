@@ -14,7 +14,7 @@ done
 
 # If no valid player found, show fallback
 if [[ -z "$current_player" ]]; then
-    echo " No media"
+    echo "  No media"
     exit
 fi
 

@@ -1,0 +1,41 @@
+# i3blocks config - modern minimal + nerd fonts
+full_text=||
+align=center
+separator=false
+separator_block_width=7
+
+
+
+
+[cava_visualizer]
+command=~/scripts/i3blocks_cava.sh
+interval=persist  # The script handles its own looping and updating
+# Or, if your script outputs once and exits, use a signal:
+# interval=once
+# signal=10 # Then use 'pkill -RTMIN+10 i3blocks' to refresh
+markup=pango      # Optional, if you want to use Pango for colors in the future
+# color=#88c0d0   # Example: Set a default color for the block characters
+
+[separator]
+
+[player]
+command=~/scripts/player.sh
+interval=3
+signal=10
+markup=pango
+
+[separator]
+
+[battery]
+command=~/scripts/battery.sh
+interval=30
+markup=pango
+
+[separator]
+
+[time]
+command=date '+%a %d %b %H:%M'
+interval=60
+
+[separator]
+
