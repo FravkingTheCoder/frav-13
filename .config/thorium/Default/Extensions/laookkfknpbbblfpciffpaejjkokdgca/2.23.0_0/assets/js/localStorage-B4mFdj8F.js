@@ -1,1 +1,0 @@
-Storage.prototype.setObject=function(t,e){this.setItem(t,JSON.stringify(e))},Storage.prototype.getObject=function(t){const e=this.getItem(t);return e?JSON.parse(e):void 0};

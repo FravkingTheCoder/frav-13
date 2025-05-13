@@ -1,1 +1,0 @@
-const s="/assets/svg/icon-more-functionality-DiRDfH3p.svg";export{s as default};

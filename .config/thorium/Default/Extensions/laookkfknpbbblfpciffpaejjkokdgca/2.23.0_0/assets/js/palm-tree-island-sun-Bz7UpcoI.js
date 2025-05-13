@@ -1,1 +1,0 @@
-const s="/assets/svg/palm-tree-island-sun-CNKJmE08.svg";export{s as default};

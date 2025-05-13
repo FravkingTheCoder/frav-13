@@ -1,1 +1,0 @@
-const s="/assets/svg/white-noise-B4TkEvfI.svg";export{s as default};

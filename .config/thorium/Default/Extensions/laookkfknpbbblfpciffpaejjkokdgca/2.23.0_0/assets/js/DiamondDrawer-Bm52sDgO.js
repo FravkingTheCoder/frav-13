@@ -1,1 +1,0 @@
-import{d as s,p as a}from"./Utils-CEAqaCTL.js";class d{draw(d){s(d,a.diamond)}}export{d as DiamondDrawer};

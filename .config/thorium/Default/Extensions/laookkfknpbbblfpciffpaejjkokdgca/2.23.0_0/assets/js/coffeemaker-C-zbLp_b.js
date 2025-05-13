@@ -1,1 +1,0 @@
-const s="/assets/svg/coffeemaker-n7k5K8du.svg";export{s as default};

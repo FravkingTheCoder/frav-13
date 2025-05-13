@@ -1,1 +1,0 @@
-const s="/assets/svg/sunrise-BhC_uFB4.svg";export{s as default};

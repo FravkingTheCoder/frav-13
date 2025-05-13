@@ -1,1 +1,0 @@
-import{u as e}from"./ViewState-CalcjAWV.js";const t=e("settings",{views:{general:{defaultView:!0,order:1}}});export{t as u};

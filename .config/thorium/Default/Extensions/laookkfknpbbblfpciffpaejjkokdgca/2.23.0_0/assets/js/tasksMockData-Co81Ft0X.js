@@ -1,1 +1,0 @@
-import{e as t}from"./dynamic-import-helper-Gh3O-GNF.js";const o=t("tasksMockData",{state:()=>({listTitle:"",todos:[],providerIcon:""})});export{o as u};

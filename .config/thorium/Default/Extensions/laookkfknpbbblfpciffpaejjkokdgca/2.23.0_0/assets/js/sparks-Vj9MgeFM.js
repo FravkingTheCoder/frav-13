@@ -1,1 +1,0 @@
-const s="/assets/svg/sparks-DbojhaV5.svg";export{s as default};

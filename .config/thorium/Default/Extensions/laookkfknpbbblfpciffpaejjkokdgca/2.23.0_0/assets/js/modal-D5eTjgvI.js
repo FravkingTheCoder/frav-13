@@ -1,1 +1,0 @@
-import{s as o}from"./enums-Cgv4i8uw.js";const e=(e,s={})=>new Promise((n=>{m.cmd("modal.open",o.PERMISSION_REQUEST,{componentProps:{resolve:n,permissions:e,...s}})})),s=(o,e)=>{m.cmd("modal.open",o,{componentProps:{eventSource:e}})};export{s as a,e as o};

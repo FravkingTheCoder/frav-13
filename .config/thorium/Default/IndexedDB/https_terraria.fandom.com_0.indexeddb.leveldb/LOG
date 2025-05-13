@@ -1,6 +1,0 @@
-2025/05/12-18:24:11.200 c62 Creating DB /home/frav/.config/thorium/Default/IndexedDB/https_terraria.fandom.com_0.indexeddb.leveldb since it was missing.
-2025/05/12-18:24:11.202 c62 Reusing MANIFEST /home/frav/.config/thorium/Default/IndexedDB/https_terraria.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/12-18:24:14.041 c62 Level-0 table #5: started
-2025/05/12-18:24:14.042 c62 Level-0 table #5: 5206 bytes OK
-2025/05/12-18:24:14.043 c62 Delete type=0 #3
-2025/05/12-18:24:14.043 c62 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
