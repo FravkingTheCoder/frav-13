@@ -1,0 +1,1 @@
+import{G as s,n as e,d as a}from"./dynamic-import-helper-Gh3O-GNF.js";const h=s({setup:()=>({flashMessageId:null}),methods:{showFlashMessage(s){this.flashMessageId&&e.$emit("flashMessage:dismiss",this.flashMessageId),this.flashMessageId=a.uuidv4(),s.id=this.flashMessageId,e.$emit("flashMessage",s)}}});export{h as f};

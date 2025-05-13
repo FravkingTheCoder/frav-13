@@ -1,0 +1,12 @@
+2025/05/13-10:56:24.330 453 Reusing MANIFEST /home/frav/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/13-10:56:24.330 453 Recovering log #10
+2025/05/13-10:56:24.334 453 Reusing old log /home/frav/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000010.log 
+2025/05/13-10:56:30.799 453 Level-0 table #15: started
+2025/05/13-10:56:30.807 453 Level-0 table #15: 1291968 bytes OK
+2025/05/13-10:56:30.809 453 Delete type=0 #10
+2025/05/13-10:56:52.828 453 Compacting 1@1 + 1@2 files
+2025/05/13-10:56:52.831 453 Generated table #16@1: 321 keys, 66114 bytes
+2025/05/13-10:56:52.831 453 Compacted 1@1 + 1@2 files => 66114 bytes
+2025/05/13-10:56:52.833 453 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/13-10:56:52.833 453 Delete type=2 #12
+2025/05/13-10:56:52.833 453 Delete type=2 #15

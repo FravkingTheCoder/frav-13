@@ -1,0 +1,6 @@
+RUNPROTON="/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"
+RUNWINE="/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/files/bin/wine"
+PROTONVERSION="GE-Proton9-27"
+PREVAID="105600"
+PREVGAME="Terraria"
+PREVABSGAMEEXEPATH="/home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe"

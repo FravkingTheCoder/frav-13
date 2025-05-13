@@ -1,0 +1,1 @@
+import{G as r}from"./dynamic-import-helper-Gh3O-GNF.js";import{n as a}from"./_plugin-vue2_normalizer-DeUNqxFl.js";const o=a(r({name:"ModalLayout"}),(function(){var r=this,a=r._self._c;return r._self._setupProxy,a("div",{staticClass:"modal-layout dark brand-full-override"},[r._t("default")],2)}),[],!1,null,"fd00910d").exports;export{o as M};

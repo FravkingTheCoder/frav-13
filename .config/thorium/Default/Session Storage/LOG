@@ -1,0 +1,9 @@
+2025/05/13-10:08:03.469 4 Reusing MANIFEST /home/frav/.config/thorium/Default/Session Storage/MANIFEST-000001
+2025/05/13-10:08:03.470 4 Recovering log #29
+2025/05/13-10:08:03.471 4 Reusing old log /home/frav/.config/thorium/Default/Session Storage/000029.log 
+2025/05/13-10:08:16.155 5 Level-0 table #33: started
+2025/05/13-10:08:16.157 5 Level-0 table #33: 30916 bytes OK
+2025/05/13-10:08:16.159 5 Delete type=0 #29
+2025/05/13-11:55:00.058 5 Level-0 table #35: started
+2025/05/13-11:55:00.060 5 Level-0 table #35: 24251 bytes OK
+2025/05/13-11:55:00.061 5 Delete type=0 #32

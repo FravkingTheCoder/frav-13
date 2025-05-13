@@ -1,0 +1,30 @@
+{
+   "author": "Sebastian Blask",
+   "background": {
+      "scripts": [ "browser-polyfill.js", "base64.js", "pslrules.js", "psl.js", "url.js", "util.js", "background.js" ]
+   },
+   "browser_action": {
+      "browser_style": false,
+      "default_popup": "options/options.html",
+      "default_title": "__MSG_browserActionLabelDefault__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "homepage_url": "https://github.com/sblask/webextension-skip-redirect",
+   "icons": {
+      "128": "icon-128x128.png",
+      "16": "icon-16x16.png",
+      "32": "icon-32x32.png",
+      "48": "icon-48x48.png",
+      "64": "icon-64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhIs9pWOEtB9nQpIVrtOUaeTcz26eV6bjA65leJkGtpKDfJWxa3+VfBnfUNNAVMaWcegkZlyMpetVWuZ2sSZ4FjoQqX/Gexrp/6ShSif5bXxv5uYSOdmU+DK+Erz6hnIwfhmcn5sJrWhMZvQvkqKSNFgS1iAdZFWA22XuI7Vn6mz++FB/6ofMhC8jPBiw9rHyrPQiwIZtqKUZydx9EoBM2vzEEIm9y8KgZvM3siorSI7WC/Ue9mPpfLbGGFjDxke2/k6CHaYikXQzLUkkkQGwyL2mWhwTQBFbVFfHRirV0RFAw8BVTcK15TNPcYUuYIKsGEXhHLgVoxXAidYhF09g2QIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extensionName__",
+   "options_ui": {
+      "page": "options/options.html"
+   },
+   "permissions": [ "\u003Call_urls>", "clipboardWrite", "contextMenus", "notifications", "storage", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.6"
+}

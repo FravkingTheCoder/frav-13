@@ -1,0 +1,1 @@
+import{y as r}from"./dynamic-import-helper-Gh3O-GNF.js";const{Axios:o,AxiosError:e,CanceledError:a,isCancel:s,CancelToken:t,VERSION:i,all:n,Cancel:l,isAxiosError:m,spread:p,toFormData:c,AxiosHeaders:d,HttpStatusCode:A,formToJSON:C,getAdapter:x,mergeConfig:E}=r;export{e as A,m as i};

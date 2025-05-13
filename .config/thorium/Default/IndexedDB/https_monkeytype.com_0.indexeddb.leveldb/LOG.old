@@ -1,0 +1,29 @@
+2025/05/12-10:08:15.879 c3a Creating DB /home/frav/.config/thorium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb since it was missing.
+2025/05/12-10:08:15.880 c3a Reusing MANIFEST /home/frav/.config/thorium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/12-10:08:15.917 c43 Level-0 table #5: started
+2025/05/12-10:08:15.918 c43 Level-0 table #5: 1269 bytes OK
+2025/05/12-10:08:15.919 c43 Delete type=0 #3
+2025/05/12-10:08:15.919 c3c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/12-10:08:20.364 c44 Level-0 table #7: started
+2025/05/12-10:08:20.365 c44 Level-0 table #7: 1904 bytes OK
+2025/05/12-10:08:20.367 c44 Delete type=0 #4
+2025/05/12-10:08:20.367 c3a Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/12-10:26:52.022 c3b Level-0 table #9: started
+2025/05/12-10:26:52.023 c3b Level-0 table #9: 2351 bytes OK
+2025/05/12-10:26:52.024 c3b Delete type=0 #6
+2025/05/12-10:26:52.025 c3b Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x05\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 191 : 1
+2025/05/12-10:26:52.025 c3b Compacting 1@0 + 1@1 files
+2025/05/12-10:26:52.025 c3b Generated table #10@0: 85 keys, 2156 bytes
+2025/05/12-10:26:52.025 c3b Compacted 1@0 + 1@1 files => 2156 bytes
+2025/05/12-10:26:52.026 c3b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/12-10:26:52.026 c3b Delete type=2 #7
+2025/05/12-10:26:52.026 c3b Delete type=2 #9
+2025/05/12-10:26:52.027 c3b Manual compaction at level-0 from '\x00\x05\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 191 : 1 .. (end); will stop at (end)
+2025/05/12-10:26:52.027 c3c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 217 : 1
+2025/05/12-10:26:52.027 c3c Compacting 1@1 + 1@2 files
+2025/05/12-10:26:52.028 c3c Generated table #11@1: 48 keys, 1748 bytes
+2025/05/12-10:26:52.028 c3c Compacted 1@1 + 1@2 files => 1748 bytes
+2025/05/12-10:26:52.029 c3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/12-10:26:52.029 c3c Delete type=2 #5
+2025/05/12-10:26:52.029 c3c Delete type=2 #10
+2025/05/12-10:26:52.029 c3b Manual compaction at level-1 from '\x00\x05\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 217 : 1 .. (end); will stop at (end)

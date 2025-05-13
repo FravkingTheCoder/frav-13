@@ -1,0 +1,36 @@
+2025/05/13-10:08:03.742 454 Reusing MANIFEST /home/frav/.config/thorium/Default/Local Extension Settings/cgbcahbpdhpcegmbfconppldiemgcoii/MANIFEST-000001
+2025/05/13-10:08:03.743 454 Recovering log #59
+2025/05/13-10:08:03.743 454 Reusing old log /home/frav/.config/thorium/Default/Local Extension Settings/cgbcahbpdhpcegmbfconppldiemgcoii/000059.log 
+2025/05/13-10:08:41.686 453 Level-0 table #63: started
+2025/05/13-10:08:41.698 453 Level-0 table #63: 4187128 bytes OK
+2025/05/13-10:08:41.700 453 Delete type=0 #59
+2025/05/13-10:09:38.397 454 Level-0 table #65: started
+2025/05/13-10:09:38.430 454 Level-0 table #65: 9652799 bytes OK
+2025/05/13-10:09:38.432 454 Delete type=0 #62
+2025/05/13-10:09:38.434 454 Compacting 4@0 + 3@1 files
+2025/05/13-10:09:38.443 454 Generated table #66@0: 4 keys, 2323935 bytes
+2025/05/13-10:09:38.454 454 Generated table #67@0: 4 keys, 2313756 bytes
+2025/05/13-10:09:38.468 454 Generated table #68@0: 3 keys, 2483745 bytes
+2025/05/13-10:09:38.509 454 Generated table #69@0: 2 keys, 5638259 bytes
+2025/05/13-10:09:38.519 454 Generated table #70@0: 8 keys, 1279244 bytes
+2025/05/13-10:09:38.519 454 Compacted 4@0 + 3@1 files => 14038939 bytes
+2025/05/13-10:09:38.521 454 compacted to: files[ 0 5 5 0 0 0 0 ]
+2025/05/13-10:09:38.521 454 Delete type=2 #51
+2025/05/13-10:09:38.521 454 Delete type=2 #52
+2025/05/13-10:09:38.521 454 Delete type=2 #53
+2025/05/13-10:09:38.521 454 Delete type=2 #58
+2025/05/13-10:09:38.521 454 Delete type=2 #60
+2025/05/13-10:09:38.521 454 Delete type=2 #63
+2025/05/13-10:09:38.521 454 Delete type=2 #65
+2025/05/13-10:09:38.526 454 Compacting 1@1 + 1@2 files
+2025/05/13-10:09:38.541 454 Generated table #71@1: 6 keys, 2829686 bytes
+2025/05/13-10:09:38.542 454 Compacted 1@1 + 1@2 files => 2829686 bytes
+2025/05/13-10:09:38.544 454 compacted to: files[ 0 4 5 0 0 0 0 ]
+2025/05/13-10:09:38.544 454 Delete type=2 #23
+2025/05/13-10:09:38.544 454 Delete type=2 #68
+2025/05/13-10:09:38.545 454 Compacting 1@1 + 1@2 files
+2025/05/13-10:09:38.582 454 Generated table #72@1: 2 keys, 5638259 bytes
+2025/05/13-10:09:38.582 454 Compacted 1@1 + 1@2 files => 5638259 bytes
+2025/05/13-10:09:38.583 454 compacted to: files[ 0 3 5 0 0 0 0 ]
+2025/05/13-10:09:38.584 454 Delete type=2 #24
+2025/05/13-10:09:38.584 454 Delete type=2 #69

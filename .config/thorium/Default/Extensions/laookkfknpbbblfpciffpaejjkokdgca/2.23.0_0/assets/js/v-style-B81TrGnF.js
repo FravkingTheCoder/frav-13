@@ -1,0 +1,1 @@
+import{z as t,h as r}from"./dynamic-import-helper-Gh3O-GNF.js";const e={setup(){const e=t();return()=>{var t;return r("style",null==(t=e.default()[0])?void 0:t.text)}}};export{e as v};

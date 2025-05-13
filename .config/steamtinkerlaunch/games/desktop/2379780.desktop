@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Balatro
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2379780
+Icon=/home/frav/.config/steamtinkerlaunch/games/header/2379780.jpg
+Terminal=false
+Type=Application
+Categories=Game;

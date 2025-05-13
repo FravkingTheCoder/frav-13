@@ -1,0 +1,12 @@
+ERROR: ld.so: object '/home/frav/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/frav/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ProtonFixes[96803] WARN: [CONFIG]: Parent directory "/home/frav/.config/protonfixes" does not exist. Abort.
+ProtonFixes[96803] INFO: Running protonfixes
+ProtonFixes[96803] INFO: Running checks
+ProtonFixes[96803] INFO: All checks successful
+ProtonFixes[96803] INFO: Using global defaults for "Terraria" (105600)
+ProtonFixes[96803] INFO: No global protonfix found for "Terraria" (105600)
+fsync: up and running.
+Setting breakpad minidump AppID = 105600
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198835639954 [API loaded no]
+pid 96829 != 96828, skipping destruction (fork without exec?)

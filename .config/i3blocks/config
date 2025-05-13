@@ -1,0 +1,33 @@
+# i3blocks config - modern minimal + nerd fonts
+full_text=
+align=center
+separator=false
+separator_block_width=7
+# color=#bd93f9
+
+[separator]
+
+[volume]
+label=volume: 
+command=~/scripts/i3blocks_volume.sh
+interval=1  # Update every 1 second
+signal=10   # Or use a signal (e.g., pkill -RTMIN+10 i3blocks) to refresh on demand
+# markup=pango # Enable if you want to use Pango markup for colors in the script
+
+[separator]
+
+[player]
+command=~/scripts/player.sh
+interval=3
+signal=10
+markup=pango
+
+[separator]
+
+[time]
+command=date '+%a %d %b %H:%M'
+interval=60
+
+[separator]
+
+

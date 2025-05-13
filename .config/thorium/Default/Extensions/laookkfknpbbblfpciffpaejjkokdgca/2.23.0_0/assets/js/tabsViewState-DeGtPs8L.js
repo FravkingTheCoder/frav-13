@@ -1,0 +1,1 @@
+import{u as r}from"./ViewState-CalcjAWV.js";import"./dynamic-import-helper-Gh3O-GNF.js";import"./array-YYQw31d9.js";import"./main-DaaZyiXy.js";import"./Logger-DgjqecXr.js";import"./string-DLOjEt1Y.js";import"./appZStack-CXXM5U-T.js";const t=r("tabs",{views:{list:{defaultView:!0,order:1},detail:{order:2}}});export{t as default,t as useTabsViewStateStore};

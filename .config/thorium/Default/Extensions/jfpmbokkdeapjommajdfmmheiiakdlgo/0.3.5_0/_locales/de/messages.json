@@ -1,0 +1,5 @@
+{
+   "description": {
+      "message": "Integriert den Browser mit JDownloader, indem der Download-Manager unterbrochen oder das Kontextmenü per Rechtsklick verwendet wird."
+   }
+}

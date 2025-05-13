@@ -1,0 +1,307 @@
+Mon May 12 05:40:09 PM IST 2025 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '105600'
+Mon May 12 05:40:09 PM IST 2025 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/frav/.local/share/Steam/steamapps/compatdata/105600'
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Language from command line is 'english'
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - GLOBALSTLLANGDIR is '/home/frav/stl/prefix/lang'
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Loading found user-installed /home/frav/.config/steamtinkerlaunch/lang/english.txt
+Mon May 12 05:40:09 PM IST 2025 INFO - getCurrentCommandline - No Proton in command line arguments 'cfi 105600'
+Mon May 12 05:40:09 PM IST 2025 INFO - saveOrgVars - Storing some original variables to restore them later
+Mon May 12 05:40:09 PM IST 2025 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Mon May 12 05:40:09 PM IST 2025 INFO - emptyVars - Set $PATH to '/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl::'
+Mon May 12 05:40:09 PM IST 2025 START - ######### Initializing Game Launch 105600 using SteamTinkerLaunch v12.12 #########
+Mon May 12 05:40:09 PM IST 2025 INFO - main - Starting with a clean log
+Mon May 12 05:40:09 PM IST 2025 INFO - main - Start creating default configs
+Mon May 12 05:40:09 PM IST 2025 INFO - createDefaultCfgs - START
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Language from command line is 'english'
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - GLOBALSTLLANGDIR is '/home/frav/stl/prefix/lang'
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Found user-installed /home/frav/.config/steamtinkerlaunch/lang/english.txt, attempting to update it
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Found lang file to replace the existing user-installed file with under '/home/frav/stl/prefix/lang/english.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLangFile - Loading found user-installed /home/frav/.config/steamtinkerlaunch/lang/english.txt
+Mon May 12 05:40:09 PM IST 2025 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Mon May 12 05:40:09 PM IST 2025 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLanguage - Loading STLLANG from '/home/frav/.config/steamtinkerlaunch/global.conf'
+Mon May 12 05:40:09 PM IST 2025 INFO - loadLanguage - STLLANG from '/home/frav/.config/steamtinkerlaunch/global.conf' is 'english'
+Mon May 12 05:40:09 PM IST 2025 INFO - createDefaultCfgs - setSteamPaths:
+Mon May 12 05:40:09 PM IST 2025 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Mon May 12 05:40:09 PM IST 2025 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Mon May 12 05:40:09 PM IST 2025 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Mon May 12 05:40:09 PM IST 2025 INFO - getGameOS - Starting game OS detection
+Mon May 12 05:40:09 PM IST 2025 WARN - getGameOS - Could not extract the full game binary path from the incoming game launch command, so assuming this is a Windows game!
+Mon May 12 05:40:09 PM IST 2025 INFO - setWin - '' determined to be a Windows Game
+Mon May 12 05:40:09 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - createDefaultCfgs - createProtonList:
+Mon May 12 05:40:09 PM IST 2025 INFO - createProtonList - Looking for available Proton versions
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 05:40:09 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - createDefaultCfgs - createProtonList end
+Mon May 12 05:40:09 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - createProtonList - Looking for available Proton versions
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 05:40:09 PM IST 2025 SKIP - fillProtonCSV - '"GE-Proton9-27";"/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"' is already in the Proton array
+Mon May 12 05:40:09 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Mon May 12 05:40:09 PM IST 2025 INFO - createDefaultCfgs - STOP
+Mon May 12 05:40:09 PM IST 2025 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Mon May 12 05:40:09 PM IST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/frav/.local/share/Steam/steamapps'
+Mon May 12 05:40:09 PM IST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/frav/.local/share/Steam/steamapps/common/Steamworks Shared:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper'
+Mon May 12 05:40:09 PM IST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/frav/.local/share/Steam/steamapps/common/Steamworks Shared:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper'
+Mon May 12 05:40:09 PM IST 2025 INFO - main - Checking internal dependencies:
+Mon May 12 05:40:10 PM IST 2025 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '14.1'
+Mon May 12 05:40:10 PM IST 2025 INFO - main - Initializing first Proton:
+Mon May 12 05:40:10 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - initFirstProton - Initializing Proton
+Mon May 12 05:40:10 PM IST 2025 INFO - initFirstProton - No Proton version available in template yet - searching for one
+Mon May 12 05:40:10 PM IST 2025 INFO - createProtonList - Looking for available Proton versions
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 05:40:10 PM IST 2025 SKIP - fillProtonCSV - '"GE-Proton9-27";"/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"' is already in the Proton array
+Mon May 12 05:40:10 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - initFirstProton - Updated 'USEPROTON' in '/home/frav/.config/steamtinkerlaunch/default_template.conf' to ''
+Mon May 12 05:40:10 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 05:40:10 PM IST 2025 SKIP - fillProtonCSV - '"GE-Proton9-27";"/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"' is already in the Proton array
+Mon May 12 05:40:10 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/frav/.config/steamtinkerlaunch/default_template.conf' is ''
+Mon May 12 05:40:10 PM IST 2025 INFO - main - Initializing default window resolution
+Mon May 12 05:40:10 PM IST 2025 INFO - setInitWinXY - Using '1440x810' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Mon May 12 05:40:10 PM IST 2025 INFO - main - Welcome to SteamTinkerLaunch
+Mon May 12 05:40:10 PM IST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/frav/.config/steamtinkerlaunch/games/appinfo'
+Mon May 12 05:40:10 PM IST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/frav/.config/steamtinkerlaunch/games/header'
+Mon May 12 05:40:10 PM IST 2025 INFO - main - Checking command line: incoming arguments 'cfi 105600'
+Mon May 12 05:40:10 PM IST 2025 INFO - getGameName - Found Game Name '"Terraria"' in '/home/frav/.config/steamtinkerlaunch/gamecfgs/id/105600.conf'
+Mon May 12 05:40:10 PM IST 2025 INFO - getGameName - Outgoing game name is 'Terraria'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Starting Gui for Creating a custom 'evaluatorscript'
+Mon May 12 05:40:10 PM IST 2025 INFO - getRes - Detected screen resolution '1920x1080'
+Mon May 12 05:40:10 PM IST 2025 INFO - pollWinRes - Using GEOM '--geometry=636x1028+0+0' from '/home/frav/.config/steamtinkerlaunch/guicfgs/1920x1080/template/SteamTinkerLaunch-CreateCustomEvaluatorScript.conf'
+Mon May 12 05:40:10 PM IST 2025 SKIP - updateConfigEntry - Configfile '/home/frav/.config/steamtinkerlaunch/guicfgs/1920x1080/105600/SteamTinkerLaunch-CreateCustomEvaluatorScript.conf' does not exist - skipping config update
+Mon May 12 05:40:10 PM IST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/frav/.config/steamtinkerlaunch/guicfgs/1920x1080/105600/SteamTinkerLaunch-CreateCustomEvaluatorScript.conf' with incoming '636x1028'
+Mon May 12 05:40:10 PM IST 2025 INFO - setShowPic - Determining game picture
+Mon May 12 05:40:10 PM IST 2025 INFO - setShowPic - Using '/home/frav/.config/steamtinkerlaunch/games/header/105600.jpg' as game picture
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Pre-Selection is based on packages enabled in '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-CreateCustomEvaluatorScript'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\3.5\\dotnetfx35.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.0\\Microsoft .NET Framework 4.0.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.0 Client Profile\\Microsoft .NET Framework 4.0 Client Profile.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.5.2\\noop.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.5.2\\Microsoft .NET Framework 4.5.2.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.6\\noop.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.6\\Microsoft .NET Framework 4.6.2.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.7\\noop.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.7\\Microsoft .NET Framework 4.7.2.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.8\\noop.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.8\\Microsoft .NET Framework 4.8.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\OpenAL\\2.0.7.0\\oalinst.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"msiexec"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"msiexec"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2005\\vcredist_x86.exe"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2005\\vcredist_x64.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2008\\vcredist_x86.exe"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2008\\vcredist_x64.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2010\\vcredist_x86.exe"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2010\\vcredist_x64.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2012\\vcredist_x86.exe"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2012\\vcredist_x64.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2013\\vcredist_x86.exe"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2013\\vcredist_x64.exe"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2015\\Microsoft Visual C++ 2015 x86.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2015\\Microsoft Visual C++ 2015 x64.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2017\\Microsoft Visual C++ 2017 x86.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2017\\Microsoft Visual C++ 2017 x64.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2019\\Microsoft Visual C++ 2019 x86.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2019\\Microsoft Visual C++ 2019 x64.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2019\\Microsoft Visual C++ 2022 x86.cmd"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2019\\Microsoft Visual C++ 2022 x64.cmd"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:10 PM IST 2025 INFO - CreateCustomEvaluatorScript - Searching in '					"process 1"		"msiexec"' '/home/frav/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_105600.vdf'
+Mon May 12 05:40:11 PM IST 2025 INFO - updateWinRes - Window 'SteamTinkerLaunch-CreateCustomEvaluatorScript' is running - polling the resolution
+Mon May 12 05:40:12 PM IST 2025 INFO - CreateCustomEvaluatorScript - Selected CANCEL
+Mon May 12 05:40:12 PM IST 2025 INFO - updateWinRes - The Window 'SteamTinkerLaunch-CreateCustomEvaluatorScript' was closed - the resolution didn't change - nothing to do
+Mon May 12 05:44:54 PM IST 2025 INFO - MainMenu - Clicked '16' - 'PLAY'
+Mon May 12 05:44:54 PM IST 2025 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game'
+Mon May 12 05:44:54 PM IST 2025 INFO - startSteamGame - Starting game
+Mon May 12 05:44:54 PM IST 2025 INFO - goBackToPrevFunction - 'MainMenu' closed
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - Second LoadCfg after menus: /home/frav/.config/steamtinkerlaunch/gamecfgs/id/105600.conf
+Mon May 12 05:44:54 PM IST 2025 INFO - loadCfg - '/home/frav/.config/steamtinkerlaunch/gamecfgs/id/105600.conf' START
+Mon May 12 05:44:54 PM IST 2025 INFO - loadCfg - Loading game config '/home/frav/.config/steamtinkerlaunch/gamecfgs/id/105600.conf'
+Mon May 12 05:44:54 PM IST 2025 INFO - migrateCfgOption - File '/home/frav/.config/steamtinkerlaunch/dxvk/105600.conf' does not exist - nothing to do
+Mon May 12 05:44:54 PM IST 2025 INFO - loadCfg - '/home/frav/.config/steamtinkerlaunch/gamecfgs/id/105600.conf' STOP
+Mon May 12 05:44:54 PM IST 2025 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Mon May 12 05:44:54 PM IST 2025 INFO - autoCollectionSettings - Searching collections for game '105600' in '/home/frav/.local/share/Steam/userdata/875374226/7/remote/sharedconfig.vdf'
+Mon May 12 05:44:54 PM IST 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Mon May 12 05:44:54 PM IST 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Mon May 12 05:44:54 PM IST 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - symlinkSteamUser:
+Mon May 12 05:44:54 PM IST 2025 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Mon May 12 05:44:54 PM IST 2025 SKIP - symlinkSteamUser - '/home/frav/.local/share/Steam/steamapps/compatdata/105600/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - restoreSteamUser:
+Mon May 12 05:44:54 PM IST 2025 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Mon May 12 05:44:54 PM IST 2025 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - prepareProton:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - setLinGameVals :
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckTweakLaunch:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkXliveless:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - chooseWinetricks:
+Mon May 12 05:44:54 PM IST 2025 INFO - chooseWinetricks - Using systemwide winetricks with version '20250102'
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkExtDeps:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkExtDeps done
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - setWineVars:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckWinetricksLaunch:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckWineCfgLaunch:
+Mon May 12 05:44:54 PM IST 2025 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CustomRegs:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - TogWindows:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - StateSteamWebHelper:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - InstallReshade:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - installDepth3DReshade:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkReshade:
+Mon May 12 05:44:54 PM IST 2025 INFO - autoCollectionSettings - Searching collections for game '105600' in '/home/frav/.local/share/Steam/userdata/875374226/7/remote/sharedconfig.vdf'
+Mon May 12 05:44:54 PM IST 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Mon May 12 05:44:54 PM IST 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Mon May 12 05:44:54 PM IST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Mon May 12 05:44:54 PM IST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/frav/.local/share/Steam/steamapps/common/Terraria' for 'SHADDESTDIR'
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - useSpecialK:
+Mon May 12 05:44:54 PM IST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Mon May 12 05:44:54 PM IST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/frav/.local/share/Steam/steamapps/common/Terraria' for 'SPEKDDIR'
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - configureGeoElf:
+Mon May 12 05:44:54 PM IST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Mon May 12 05:44:54 PM IST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/frav/.local/share/Steam/steamapps/common/Terraria' for 'GEOELFDDIR'
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - ChooseShaders:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - UseNyrnaz:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - UseReplay:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckSBSVRLaunch:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkMO2:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - setNewRes:
+Mon May 12 05:44:54 PM IST 2025 INFO - getRes - Detected screen resolution '1920x1080'
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - customUserScriptStart:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - redirectSCDP:
+Mon May 12 05:44:54 PM IST 2025 INFO - redirectSCDP - Using Proton version with minor version fix 'GE-Proton9-27' for compatdata directory name
+Mon May 12 05:44:54 PM IST 2025 INFO - redirectSCDP - Using regular compatdata '/home/frav/.local/share/Steam/steamapps/compatdata/105600'
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkIGCSInjector:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkOpenVRFSR:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckFWS:
+Mon May 12 05:44:54 PM IST 2025 INFO - loadCustomVars - Empty global config '/home/frav/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Mon May 12 05:44:54 PM IST 2025 INFO - loadCustomVars - Empty game-specific config '/home/frav/.config/steamtinkerlaunch/gamecfgs/customvars/105600.conf' for user defined custom variables not loaded
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckCustomLaunch:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkUUUPatchLaunch:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckStraceLaunch:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - CheckNetMonLaunch:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkWDIB:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkPulse:
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - checkSteamAppIDFile:
+Mon May 12 05:44:54 PM IST 2025 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is enabled and '/home/frav/.local/share/Steam/steamapps/common/Terraria/steam_appid.txt' already exists - nothing to do
+Mon May 12 05:44:54 PM IST 2025 INFO - prepareLaunch - setCompatDataTitle:
+Mon May 12 05:44:54 PM IST 2025 INFO - setCompatDataTitle - Symlink /home/frav/.config/steamtinkerlaunch/compatdata/Terraria already exists
+Mon May 12 05:44:55 PM IST 2025 INFO - setCompatDataTitle - Symlink '/home/frav/.config/steamtinkerlaunch/compatdata/Terraria' already points to the correct directory '/home/frav/.local/share/Steam/steamapps/compatdata/105600'
+Mon May 12 05:44:55 PM IST 2025 SKIP - delayGameForCustomLaunch - Nothing to do
+Mon May 12 05:44:55 PM IST 2025 INFO - prepareLaunch - launchSteamGame:
+Mon May 12 05:44:55 PM IST 2025 INFO - launchSteamGame - Initial game command is 'waitforexitandrun /home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe'
+Mon May 12 05:44:55 PM IST 2025 INFO - setSLRReap - No SLR provided from command line, attempting to fetch required SLR from current compatibility tool's 'toolmanifest.vdf'
+Mon May 12 05:44:55 PM IST 2025 INFO - getRequireToolAppidPath - Found tool manifest at '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/toolmanifest.vdf', attempting to get 'require_tool_appid' value...
+Mon May 12 05:44:55 PM IST 2025 INFO - getRequireToolAppidPath - Got 'require_tool_appid' from '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/toolmanifest.vdf' ('1628350') - Returning path to tool
+Mon May 12 05:44:55 PM IST 2025 INFO - getGameDir - Found matching App Manifest file for presumed entered AppID '1628350' - Manifest file is '/home/frav/.local/share/Steam/steamapps/appmanifest_1628350.acf'
+Mon May 12 05:44:55 PM IST 2025 INFO - setSLRReap - '/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper' exists - Path gotten from specified AppID looks valid
+Mon May 12 05:44:55 PM IST 2025 INFO - setSLRReap - Building Steam Linux Runtime command for Proton game
+Mon May 12 05:44:55 PM IST 2025 INFO - setSLRReap - Adding SLR '/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun --' to the launch command
+Mon May 12 05:44:55 PM IST 2025 INFO - gameArgs - Game doesn't use any command line arguments
+Mon May 12 05:44:55 PM IST 2025 INFO - launchSteamGame - Preparing proton command
+Mon May 12 05:44:55 PM IST 2025 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Mon May 12 05:44:55 PM IST 2025 INFO - setProtonCmd - No current Proton found
+Mon May 12 05:44:55 PM IST 2025 INFO - setProtonCmd - Automatically selecting newest official one
+Mon May 12 05:44:55 PM IST 2025 INFO - setNOP - Selecting newest official Proton available
+Mon May 12 05:44:55 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 05:44:55 PM IST 2025 INFO - createProtonList - Looking for available Proton versions
+Mon May 12 05:44:55 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 05:44:55 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 05:44:55 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 05:44:55 PM IST 2025 SKIP - fillProtonCSV - '"GE-Proton9-27";"/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"' is already in the Proton array
+Mon May 12 05:44:55 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 05:44:55 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 05:44:55 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:44:55 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:44:55 PM IST 2025 INFO - updateWinRes - The Window 'SteamTinkerLaunch-MainMenu' was closed - saving the last seen resolution '956x1028' into config '/home/frav/.config/steamtinkerlaunch/guicfgs/1920x1080/105600/SteamTinkerLaunch-MainMenu.conf'
+Mon May 12 05:44:55 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 05:44:55 PM IST 2025 INFO - updateConfigEntry - Option 'WINX' is updated with the new value '956' in config 'SteamTinkerLaunch-MainMenu.conf'
+Mon May 12 05:44:55 PM IST 2025 SKIP - setNOP - Haven't found anything
+Mon May 12 05:44:55 PM IST 2025 INFO - saveNewRes - Saved new resolution '956x1028' in '/home/frav/.config/steamtinkerlaunch/guicfgs/1920x1080/105600/SteamTinkerLaunch-MainMenu.conf'
+Mon May 12 05:44:55 PM IST 2025 SKIP - setRunProtonFromUseProton - USEPROTON is empty
+Mon May 12 05:44:55 PM IST 2025 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Mon May 12 05:44:55 PM IST 2025 SKIP - unSymlink - Unsymlinking is not enabled
+Mon May 12 05:44:55 PM IST 2025 INFO - setProtonCmd - Prepending Proton '' (='/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton') to the command line '/home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe'
+Mon May 12 05:44:55 PM IST 2025 INFO - setProtonCmd - UPDATED game start command is: /home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe
+Mon May 12 05:44:55 PM IST 2025 INFO - setProtonCmd - Starting 'Terraria (105600)' with Proton: 'GE-Proton9-27'
+Mon May 12 05:44:55 PM IST 2025 INFO - launchSteamGame - Original incoming start command: 'waitforexitandrun /home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe'
+Mon May 12 05:44:55 PM IST 2025 INFO - launchSteamGame - Final outgoing start command: '/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton waitforexitandrun /home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe'
+Mon May 12 05:44:55 PM IST 2025 INFO - loadCfg - '/home/frav/.config/steamtinkerlaunch/meta/id/general/105600.conf' START
+Mon May 12 05:44:55 PM IST 2025 INFO - loadCfg - '/home/frav/.config/steamtinkerlaunch/meta/id/general/105600.conf' STOP
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - Getting the Game Window name:
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - Full start command is '/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton waitforexitandrun /home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe'
+Mon May 12 05:44:55 PM IST 2025 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/frav/.config/steamtinkerlaunch/meta/id/general/105600.conf' yet. Trying to find it now
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - Rebuilding STEAM_COMPAT_TOOL_PATHS variable:
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - Adding RUNPROTON '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27'
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - Adding '' because USESLR is enabled
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - Result: Set STEAM_COMPAT_TOOL_PATHS from '/home/frav/.local/share/Steam/steamapps/common/Steamworks Shared:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper' to '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27:'
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: 'waitforexitandrun /home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe'
+Mon May 12 05:44:55 PM IST 2025 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/home/frav/.local/share/Steam/steamapps/common/Terraria' not yet in front
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - ## STL LAUNCH COMMAND: '/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton waitforexitandrun /home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe'
+Mon May 12 05:44:55 PM IST 2025 INFO - startGame - ## GAMESTART HERE ###
+Mon May 12 05:44:55 PM IST 2025 INFO - restoreOrgVars - Restoring previously cleared Variables
+Mon May 12 05:44:56 PM IST 2025 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/home/frav/.local/share/Steam/steamapps/common/Terraria' not yet in front
+Mon May 12 05:44:57 PM IST 2025 WAIT - getGameWindowPID - Sec 2/20 Game Window with pwd '/home/frav/.local/share/Steam/steamapps/common/Terraria' not yet in front
+Mon May 12 05:44:58 PM IST 2025 WAIT - getGameWindowPID - Sec 3/20 Game Window with pwd '/home/frav/.local/share/Steam/steamapps/common/Terraria' not yet in front
+Mon May 12 05:44:59 PM IST 2025 WAIT - getGameWindowPID - Sec 4/20 Game Window with pwd '/home/frav/.local/share/Steam/steamapps/common/Terraria' not yet in front
+Mon May 12 05:44:59 PM IST 2025 INFO - startGame - Symlink '/home/frav/.config/steamtinkerlaunch/logs/gamelaunch/title/Terraria.log' already exists
+Mon May 12 05:44:59 PM IST 2025 ERROR - startGame - Could not determine pid of '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/files/bin/wineserver'
+Mon May 12 05:44:59 PM IST 2025 INFO - startGame - ## GAMESTOP after '4' seconds playtime
+Mon May 12 05:44:59 PM IST 2025 STOP - ######### SteamTinkerLaunch v12.12 #########
+Mon May 12 05:44:59 PM IST 2025 STOP - ######### CLEANUP #########
+Mon May 12 05:44:59 PM IST 2025 INFO - closeSTL - closing STL
+Mon May 12 05:44:59 PM IST 2025 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/frav/.config/steamtinkerlaunch/default_template.conf'
+Mon May 12 05:44:59 PM IST 2025 INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Mon May 12 05:44:59 PM IST 2025 INFO - checkPlayTime - The game stopped after '4' seconds - opening CrashGuess Requester
+Mon May 12 05:44:59 PM IST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/frav/.config/steamtinkerlaunch/games/appinfo/105600.bin'
+Mon May 12 05:44:59 PM IST 2025 INFO - getRes - Detected screen resolution '1920x1080'
+Mon May 12 05:44:59 PM IST 2025 INFO - pollWinRes - Using GEOM '--geometry=956x1028+0+0' from '/home/frav/.config/steamtinkerlaunch/guicfgs/1920x1080/105600/SteamTinkerLaunch-CrashGuess.conf'
+Mon May 12 05:44:59 PM IST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/frav/.config/steamtinkerlaunch/guicfgs/1920x1080/105600/SteamTinkerLaunch-CrashGuess.conf' with incoming '956x1028'
+Mon May 12 05:44:59 PM IST 2025 INFO - setShowPic - Determining game picture
+Mon May 12 05:44:59 PM IST 2025 INFO - setShowPic - Using '/home/frav/.config/steamtinkerlaunch/games/header/105600.jpg' as game picture
+Mon May 12 05:44:59 PM IST 2025 WAIT - updateWinRes - steamtinkerlaunch is just closing - leaving loop
+Mon May 12 05:44:59 PM IST 2025 INFO - updateWinRes - Window 'SteamTinkerLaunch-CrashGuess' is running - polling the resolution
+Mon May 12 05:44:59 PM IST 2025 INFO - updateWinRes - The Window 'SteamTinkerLaunch-CrashGuess' was closed - the resolution didn't change - nothing to do
+Mon May 12 05:45:00 PM IST 2025 WAIT - getGameWindowPID - steamtinkerlaunch is just closing - leaving loop
+Mon May 12 05:45:05 PM IST 2025 SKIP - checkPlayTime - Selected 'NO' - Exiting regularly
+Mon May 12 05:45:05 PM IST 2025 INFO - closeSTL - Game 'Terraria (105600)' exited - cleaning up custom processes if necessary
+Mon May 12 05:45:05 PM IST 2025 INFO - closeTrayIcon - Closing TrayIcon '81376'
+Mon May 12 05:45:06 PM IST 2025 INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Mon May 12 05:45:06 PM IST 2025 STOP - ######### closeSTL SteamTinkerLaunch v12.12 #########
+Mon May 12 05:45:06 PM IST 2025 INFO - writeLastRun - Recreating /home/frav/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+Mon May 12 05:45:06 PM IST 2025 INFO - storeMetaData - Saving metadata for game 'Terraria (105600)'
+Mon May 12 05:45:06 PM IST 2025 INFO - updateConfigEntry - 'GAMENAME' option missing in config '105600.conf' - adding a new line
+Mon May 12 05:45:06 PM IST 2025 INFO - getArch - Architecture for '/home/frav/.local/share/Steam/steamapps/common/Terraria/Terraria.exe' is 32bit
+Mon May 12 05:45:06 PM IST 2025 INFO - storeMetaData - Symlink '/home/frav/.config/steamtinkerlaunch/meta/eval/title/evaluatorscript_Terraria.vdf' already exists

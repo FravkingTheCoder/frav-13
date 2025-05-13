@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Terraria
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/105600
+Icon=/home/frav/.config/steamtinkerlaunch/games/header/105600.jpg
+Terminal=false
+Type=Application
+Categories=Game;

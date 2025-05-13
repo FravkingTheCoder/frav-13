@@ -1,0 +1,84 @@
+Mon May 12 02:26:02 PM IST 2025 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '2634950'
+Mon May 12 02:26:02 PM IST 2025 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/frav/.local/share/Steam/steamapps/compatdata/2634950'
+Mon May 12 02:26:02 PM IST 2025 INFO - loadLangFile - Language from command line is 'english'
+Mon May 12 02:26:02 PM IST 2025 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Mon May 12 02:26:02 PM IST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Mon May 12 02:26:02 PM IST 2025 INFO - loadLangFile - Loading found user-installed /home/frav/.config/steamtinkerlaunch/lang/english.txt
+Mon May 12 02:26:02 PM IST 2025 INFO - getCurrentCommandline - Running checkFirstTimeRun with arguments 'run /home/frav/.local/share/Steam/legacycompat/iscriptevaluator.exe legacycompat\evaluatorscript_2634950.vdf'
+Mon May 12 02:26:06 PM IST 2025 INFO - saveOrgVars - Storing some original variables to restore them later
+Mon May 12 02:26:06 PM IST 2025 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Mon May 12 02:26:06 PM IST 2025 INFO - emptyVars - Set $PATH to '/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:'
+Mon May 12 02:26:06 PM IST 2025 START - ######### Initializing Game Launch 2634950 using SteamTinkerLaunch v12.12 #########
+Mon May 12 02:26:06 PM IST 2025 INFO - main - Starting with a clean log
+Mon May 12 02:26:06 PM IST 2025 INFO - main - Start creating default configs
+Mon May 12 02:26:06 PM IST 2025 INFO - createDefaultCfgs - START
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLangFile - Language from command line is 'english'
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLangFile - GLOBALSTLLANGDIR is '/home/frav/stl/prefix/lang'
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLangFile - Found user-installed /home/frav/.config/steamtinkerlaunch/lang/english.txt, attempting to update it
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLangFile - Found lang file to replace the existing user-installed file with under '/home/frav/stl/prefix/lang/english.txt'
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLangFile - Loading found user-installed /home/frav/.config/steamtinkerlaunch/lang/english.txt
+Mon May 12 02:26:06 PM IST 2025 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Mon May 12 02:26:06 PM IST 2025 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLanguage - Loading STLLANG from '/home/frav/.config/steamtinkerlaunch/global.conf'
+Mon May 12 02:26:06 PM IST 2025 INFO - loadLanguage - STLLANG from '/home/frav/.config/steamtinkerlaunch/global.conf' is 'english'
+Mon May 12 02:26:06 PM IST 2025 INFO - createDefaultCfgs - setSteamPaths:
+Mon May 12 02:26:06 PM IST 2025 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Mon May 12 02:26:06 PM IST 2025 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Mon May 12 02:26:06 PM IST 2025 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Mon May 12 02:26:06 PM IST 2025 INFO - getGameOS - Starting game OS detection
+Mon May 12 02:26:06 PM IST 2025 WARN - getGameOS - Could not extract the full game binary path from the incoming game launch command, so assuming this is a Windows game!
+Mon May 12 02:26:06 PM IST 2025 INFO - setWin - '' determined to be a Windows Game
+Mon May 12 02:26:06 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 02:26:06 PM IST 2025 INFO - createProtonList - Looking for available Proton versions
+Mon May 12 02:26:06 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 02:26:06 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 02:26:06 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 02:26:06 PM IST 2025 SKIP - fillProtonCSV - '"GE-Proton9-27";"/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"' is already in the Proton array
+Mon May 12 02:26:06 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 02:26:06 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 02:26:06 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:06 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:06 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Mon May 12 02:26:07 PM IST 2025 INFO - createDefaultCfgs - STOP
+Mon May 12 02:26:07 PM IST 2025 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/frav/.local/share/Steam/steamapps'
+Mon May 12 02:26:07 PM IST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/frav/.local/share/Steam/steamapps/common/Steamworks Shared:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper'
+Mon May 12 02:26:07 PM IST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/frav/.local/share/Steam/steamapps/common/Steamworks Shared:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier:/home/frav/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper'
+Mon May 12 02:26:07 PM IST 2025 INFO - main - Checking internal dependencies:
+Mon May 12 02:26:07 PM IST 2025 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '14.1'
+Mon May 12 02:26:07 PM IST 2025 INFO - main - Initializing first Proton:
+Mon May 12 02:26:07 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - initFirstProton - Initializing Proton
+Mon May 12 02:26:07 PM IST 2025 INFO - initFirstProton - No Proton version available in template yet - searching for one
+Mon May 12 02:26:07 PM IST 2025 INFO - createProtonList - Looking for available Proton versions
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 02:26:07 PM IST 2025 SKIP - fillProtonCSV - '"GE-Proton9-27";"/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"' is already in the Proton array
+Mon May 12 02:26:07 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - initFirstProton - Updated 'USEPROTON' in '/home/frav/.config/steamtinkerlaunch/default_template.conf' to ''
+Mon May 12 02:26:07 PM IST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/frav/.local/share/Steam/compatibilitytools.d'
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton'
+Mon May 12 02:26:07 PM IST 2025 SKIP - fillProtonCSV - '"GE-Proton9-27";"/home/frav/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton"' is already in the Proton array
+Mon May 12 02:26:07 PM IST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/frav/.config/steamtinkerlaunch/protonlist.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/frav/.config/steamtinkerlaunch/default_template.conf' is ''
+Mon May 12 02:26:07 PM IST 2025 INFO - main - Initializing default window resolution
+Mon May 12 02:26:07 PM IST 2025 INFO - setInitWinXY - Using '1440x810' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Mon May 12 02:26:07 PM IST 2025 INFO - main - Welcome to SteamTinkerLaunch
+Mon May 12 02:26:07 PM IST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/frav/.config/steamtinkerlaunch/games/appinfo'
+Mon May 12 02:26:07 PM IST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/frav/.config/steamtinkerlaunch/games/header'
+Mon May 12 02:26:07 PM IST 2025 INFO - main - Checking command line: incoming arguments 'run /home/frav/.local/share/Steam/legacycompat/iscriptevaluator.exe legacycompat\evaluatorscript_2634950.vdf'

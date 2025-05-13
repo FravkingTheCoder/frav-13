@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/js/MotionPlugin-DEZ2jSVq.js","assets/js/main-DaaZyiXy.js"])))=>i.map(i=>d[i]);
+import{_ as n}from"./main-DaaZyiXy.js";async function i(i,o=!0){const{MotionPlugin:t}=await n((async()=>{const{MotionPlugin:n}=await import("./MotionPlugin-DEZ2jSVq.js");return{MotionPlugin:n}}),__vite__mapDeps([0,1]));await i.addPlugin(new t(i),o)}export{i as loadMotionPlugin};

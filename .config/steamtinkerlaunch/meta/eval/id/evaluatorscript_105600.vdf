@@ -1,0 +1,47 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"105600"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"0"
+		"SteamID"		"76561198835639954"
+		"compat_installscript"
+		{
+			"Registry"
+			{
+				"hkey_local_machine\\software\\re-logic\\terraria"
+				{
+					"string"
+					{
+						"install_path"		"%INSTALLDIR%"
+						"exe_path"		"%INSTALLDIR%\\Terraria.exe"
+					}
+					"dword"
+					{
+						"patchversion"		"0"
+					}
+				}
+			}
+			"run process"
+			{
+				"install"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full"
+					"process 1"		"%INSTALLDIR%\\dotNetFx40_Full_setup.exe"
+					"command 1"		"/passive /norestart"
+					"nocleanup"		"1"
+				}
+				"installed"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Microsoft\\XNA\\Framework\\v4.0"
+					"process 1"		"%windir%\\system32\\msiexec.exe"
+					"command 1"		"/package \"%INSTALLDIR%\\xnafx40_redist.msi\" /passive"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/home/frav/.local/share/Steam/steamapps/common/Terraria"
+	}
+}

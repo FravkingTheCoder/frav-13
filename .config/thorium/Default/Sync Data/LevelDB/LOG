@@ -1,0 +1,24 @@
+2025/05/13-10:08:03.364 453 Reusing MANIFEST /home/frav/.config/thorium/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/05/13-10:08:03.365 453 Recovering log #40
+2025/05/13-10:08:03.368 453 Reusing old log /home/frav/.config/thorium/Default/Sync Data/LevelDB/000040.log 
+2025/05/13-10:10:29.925 454 Level-0 table #44: started
+2025/05/13-10:10:29.928 454 Level-0 table #44: 101820 bytes OK
+2025/05/13-10:10:29.929 454 Delete type=0 #40
+2025/05/13-10:53:52.990 454 Level-0 table #46: started
+2025/05/13-10:53:52.993 454 Level-0 table #46: 108813 bytes OK
+2025/05/13-10:53:52.994 454 Delete type=0 #43
+2025/05/13-10:53:52.994 454 Compacting 4@0 + 1@1 files
+2025/05/13-10:53:52.997 454 Generated table #47@0: 111 keys, 20020 bytes
+2025/05/13-10:53:52.997 454 Compacted 4@0 + 1@1 files => 20020 bytes
+2025/05/13-10:53:52.998 454 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/13-10:53:52.998 454 Delete type=2 #37
+2025/05/13-10:53:52.998 454 Delete type=2 #39
+2025/05/13-10:53:52.998 454 Delete type=2 #41
+2025/05/13-10:53:52.998 454 Delete type=2 #44
+2025/05/13-10:53:52.998 454 Delete type=2 #46
+2025/05/13-11:16:14.906 454 Level-0 table #49: started
+2025/05/13-11:16:14.909 454 Level-0 table #49: 117668 bytes OK
+2025/05/13-11:16:14.910 454 Delete type=0 #45
+2025/05/13-11:42:17.933 453 Level-0 table #51: started
+2025/05/13-11:42:17.936 453 Level-0 table #51: 89269 bytes OK
+2025/05/13-11:42:17.938 453 Delete type=0 #48

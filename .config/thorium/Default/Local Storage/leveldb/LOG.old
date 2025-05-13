@@ -1,0 +1,39 @@
+2025/05/12-16:51:25.497 4 Reusing MANIFEST /home/frav/.config/thorium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/05/12-16:51:25.502 4 Recovering log #93
+2025/05/12-16:51:25.503 4 Reusing old log /home/frav/.config/thorium/Default/Local Storage/leveldb/000093.log 
+2025/05/12-17:04:39.237 5 Level-0 table #97: started
+2025/05/12-17:04:39.239 5 Level-0 table #97: 63356 bytes OK
+2025/05/12-17:04:39.241 5 Delete type=0 #93
+2025/05/12-17:11:24.048 5 Level-0 table #99: started
+2025/05/12-17:11:24.050 5 Level-0 table #99: 41413 bytes OK
+2025/05/12-17:11:24.051 5 Delete type=0 #96
+2025/05/12-17:11:24.052 5 Compacting 4@0 + 1@1 files
+2025/05/12-17:11:24.064 5 Generated table #100@0: 301 keys, 788426 bytes
+2025/05/12-17:11:24.065 5 Compacted 4@0 + 1@1 files => 788426 bytes
+2025/05/12-17:11:24.066 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/12-17:11:24.066 5 Delete type=2 #90
+2025/05/12-17:11:24.066 5 Delete type=2 #92
+2025/05/12-17:11:24.066 5 Delete type=2 #94
+2025/05/12-17:11:24.066 5 Delete type=2 #97
+2025/05/12-17:11:24.066 5 Delete type=2 #99
+2025/05/12-17:23:26.068 5 Level-0 table #102: started
+2025/05/12-17:23:26.070 5 Level-0 table #102: 20243 bytes OK
+2025/05/12-17:23:26.071 5 Delete type=0 #98
+2025/05/12-17:44:27.581 5 Level-0 table #104: started
+2025/05/12-17:44:27.582 5 Level-0 table #104: 21630 bytes OK
+2025/05/12-17:44:27.584 5 Delete type=0 #101
+2025/05/12-18:00:23.330 5 Level-0 table #106: started
+2025/05/12-18:00:23.331 5 Level-0 table #106: 40224 bytes OK
+2025/05/12-18:00:23.333 5 Delete type=0 #103
+2025/05/12-18:30:47.017 5 Level-0 table #108: started
+2025/05/12-18:30:47.022 5 Level-0 table #108: 374368 bytes OK
+2025/05/12-18:30:47.023 5 Delete type=0 #105
+2025/05/12-18:30:47.024 5 Compacting 4@0 + 1@1 files
+2025/05/12-18:30:47.037 5 Generated table #109@0: 316 keys, 1133099 bytes
+2025/05/12-18:30:47.037 5 Compacted 4@0 + 1@1 files => 1133099 bytes
+2025/05/12-18:30:47.038 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/12-18:30:47.038 5 Delete type=2 #100
+2025/05/12-18:30:47.038 5 Delete type=2 #102
+2025/05/12-18:30:47.038 5 Delete type=2 #104
+2025/05/12-18:30:47.038 5 Delete type=2 #106
+2025/05/12-18:30:47.038 5 Delete type=2 #108
