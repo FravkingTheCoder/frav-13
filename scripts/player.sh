@@ -14,7 +14,7 @@ done
 
 # If no valid player found, show fallback
 if [[ -z "$current_player" ]]; then
-    echo " No media"
+    echo "  No media"
     exit
 fi
 
@@ -25,7 +25,7 @@ album=$(playerctl -p "$current_player" metadata xesam:album 2>/dev/null)
 
 # Filter bad titles (like weird bracket placeholders)
 if [[ -z "$title" || "$title" =~ \[.*\] ]]; then
-    echo " No media"
+    echo "  No media"
     exit
 fi
 
@@ -50,5 +50,5 @@ if (( ${#info} > max_length )); then
 fi
 
 # Final output
-echo " [$info] $icon"
+echo "  [$info] $icon"
 
