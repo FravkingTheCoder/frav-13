@@ -1,1 +1,0 @@
-const s="/assets/svg/upgrade-tiles-overview-BcY8zPN-.svg";export{s as default};

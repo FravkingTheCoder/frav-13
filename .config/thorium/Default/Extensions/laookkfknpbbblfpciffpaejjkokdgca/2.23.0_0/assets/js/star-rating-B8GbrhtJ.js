@@ -1,1 +1,0 @@
-const s="/assets/svg/star-rating-CIfRQydz.svg";export{s as default};

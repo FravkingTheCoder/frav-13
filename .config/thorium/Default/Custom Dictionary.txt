@@ -1,3 +1,0 @@
-Cybersecurity
-Frvsh
-checksum_v1 = f20f33d30f00f4fa58cbef5d5eec8e8b

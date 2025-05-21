@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Iosevka Nerd Font 13
+font pango:Iosevka Nerd Font 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -28,29 +28,32 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 exec --no-startup-id flameshot
-# exec --no-startup-id picom -b
-exec --no-startup-id volumeicon
+exec --no-startup-id picom -b
 exec --no-startup-id dunst
 exec --no-startup-id autotiling
 exec --no-startup-id source ~/.fehbg
 exec --no-startup-id copyq
 exec --no-startup-id xautolock -time 10 -locker "betterlockscreen -l dim" -notify 30 -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
 exec --no-startup-id redshift-gtk
-exec --no-startup-id mate-polkit
+exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id ~/scripts/volumeup.sh
 bindsym XF86AudioLowerVolume exec --no-startup-id ~/scripts/volumedown.sh
 bindsym XF86AudioMute exec --no-startup-id ~/scripts/volumetoggle.sh
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# Media Player Control (using playerctl)
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioPause exec --no-startup-id playerctl play-pause # Often same as play
+bindsym XF86AudioStop exec --no-startup-id playerctl stop
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 # Using brightnessctl to adjust brightness 
 bindsym XF86MonBrightnessUp exec --no-startup-id ~/scripts/brightnessup.sh  
@@ -69,6 +72,8 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec kitty 
+bindsym $mod+Shift+s exec flameshot gui
+bindsym $mod+n exec thunar
 
 # kill focused window
 bindsym $mod+q kill
@@ -185,16 +190,19 @@ bindsym $mod+Shift+e exec --no-startup-id rofi -show power-menu -modi power-menu
 
 
 
+# Class rules
+# Move Gamescope sessions to workspace 6
+for_window [class="(?i)gamescope"] workspace number 6
 
 
+
+#Colors:
 # class                 border  bground text    indicator child_border
-client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
-client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
-client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
-client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
-client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
-
-client.background       #F8F8F2
+client.focused          #6272a4 #282a36 #f8f8f2 #bd93f9   #6272a4
+client.focused_inactive #44475a #282a36 #f8f8f2 #6272a4   #44475a
+client.unfocused        #282a36 #282a36 #6272a4 #44475a   #282a36
+client.urgent           #ff5555 #282a36 #f8f8f2 #ff5555   #ff5555
+client.placeholder      #282a36 #282a36 #f8f8f2 #44475a   #282a36
 
 
 # resize window (you can also use the mouse for that)
@@ -228,15 +236,16 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
   colors {
-    background #282A36
-    statusline #F8F8F2
-    separator  #44475A
+	background #282a36
+        statusline #f8f8f2
+        separator  #44475a
 
-    focused_workspace  #44475A #44475A #F8F8F2
-    active_workspace   #282A36 #44475A #F8F8F2
-    inactive_workspace #282A36 #282A36 #BFBFBF
-    urgent_workspace   #FF5555 #FF5555 #F8F8F2
-    binding_mode       #FF5555 #FF5555 #F8F8F2 
+        #                   border  background text
+        focused_workspace  #bd93f9 #44475a   #f8f8f2
+        active_workspace   #6272a4 #282a36   #f8f8f2
+        inactive_workspace #282a36 #282a36   #6272a4
+        urgent_workspace   #ff5555 #ff5555   #f8f8f2
+        binding_mode       #ff5555 #282a36   #f8f8f2
   }
 
         position top

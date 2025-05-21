@@ -1,1 +1,0 @@
-const e="/assets/svg/center-below-calendar-BFCAO6pg.svg";export{e as default};

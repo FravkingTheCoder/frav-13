@@ -1,1 +1,0 @@
-const s="/assets/svg/not-today-rhp4grOf.svg";export{s as default};

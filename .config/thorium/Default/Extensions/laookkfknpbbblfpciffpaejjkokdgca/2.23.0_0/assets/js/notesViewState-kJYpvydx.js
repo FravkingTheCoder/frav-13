@@ -1,1 +1,0 @@
-import{u as e}from"./ViewState-CalcjAWV.js";const t=e("notes",{views:{list:{defaultView:!0,order:1},deleted:{order:2}}});export{t as u};

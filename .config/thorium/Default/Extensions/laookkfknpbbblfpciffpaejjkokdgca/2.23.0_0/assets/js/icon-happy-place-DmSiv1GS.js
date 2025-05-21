@@ -1,1 +1,0 @@
-const s="/assets/svg/icon-happy-place-obVywdew.svg";export{s as default};

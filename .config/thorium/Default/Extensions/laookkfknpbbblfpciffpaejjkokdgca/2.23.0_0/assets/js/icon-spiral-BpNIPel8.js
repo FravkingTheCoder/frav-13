@@ -1,1 +1,0 @@
-const s="/assets/svg/icon-spiral-OjXjVIoT.svg";export{s as default};

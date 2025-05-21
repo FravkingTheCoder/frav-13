@@ -1,1 +1,0 @@
-const s="/assets/svg/creek-Cq_Q676z.svg";export{s as default};

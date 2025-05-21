@@ -1,1 +1,0 @@
-var o=(o=>(o.Row="row",o.Column="column",o))(o||{});const a=3;export{o as B,a as D};

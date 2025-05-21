@@ -1,1 +1,0 @@
-const s="/assets/svg/binaural-BePYHcfh.svg";export{s as default};

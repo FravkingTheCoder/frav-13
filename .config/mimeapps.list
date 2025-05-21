@@ -1,7 +1,11 @@
+[Added Associations]
+image/jpeg=org.gnome.eog.desktop;
+image/png=eog.desktop;
 
 [Default Applications]
+image/png=eog.desktop;
 text/html=thorium-browser.desktop
+x-scheme-handler/about=thorium-browser.desktop
 x-scheme-handler/http=thorium-browser.desktop
 x-scheme-handler/https=thorium-browser.desktop
-x-scheme-handler/about=thorium-browser.desktop
 x-scheme-handler/unknown=thorium-browser.desktop

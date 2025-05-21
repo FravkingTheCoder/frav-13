@@ -1,6 +1,0 @@
-2025/05/13-11:02:27.067 452 Creating DB /home/frav/.config/thorium/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb since it was missing.
-2025/05/13-11:02:27.069 452 Reusing MANIFEST /home/frav/.config/thorium/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/13-11:41:02.643 453 Level-0 table #5: started
-2025/05/13-11:41:02.644 453 Level-0 table #5: 806 bytes OK
-2025/05/13-11:41:02.645 453 Delete type=0 #3
-2025/05/13-11:41:02.645 453 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

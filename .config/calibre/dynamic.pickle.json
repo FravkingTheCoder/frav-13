@@ -1,0 +1,17 @@
+{
+  "add books dialog dir": "/home/frav/Downloads/compressed",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "database location dialog": "/home/frav/Documents/books",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle_voyage",
+  "welcome_wizard_was_run": true
+}
