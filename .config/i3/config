@@ -44,9 +44,9 @@ exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id ~/scripts/volumeup.sh
-bindsym XF86AudioLowerVolume exec --no-startup-id ~/scripts/volumedown.sh
-bindsym XF86AudioMute exec --no-startup-id ~/scripts/volumetoggle.sh
+bindsym XF86AudioRaiseVolume exec --no-startup-id ~/scripts/volumeup.sh && pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioLowerVolume exec --no-startup-id ~/scripts/volumedown.sh && pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioMute exec --no-startup-id ~/scripts/volumetoggle.sh && pkill -SIGRTMIN+10 i3blocks
 
 # Media Player Control (using playerctl)
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause

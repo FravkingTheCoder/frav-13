@@ -1,6 +1,9 @@
 [Added Associations]
 image/jpeg=org.gnome.eog.desktop;
 image/png=eog.desktop;
+application/x-shellscript=neovide.desktop;
+text/plain=neovide.desktop;
+application/zip=org.kde.ark.desktop;
 
 [Default Applications]
 image/png=eog.desktop;
